@@ -17,6 +17,9 @@ class Car:
     EL_TOLL_FEE = 0.10                # Bomavgift for elektriske biler
     BENSIN_TOLL_FEE= 0.30             # Bomavgift for bensin biler
     
+    '''
+    Konstruktør
+    '''
     def __init__(self, type: type, yearly_km):
         self.type = type
         self.yearly_km = yearly_km

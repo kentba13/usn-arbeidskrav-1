@@ -18,7 +18,7 @@ def main():
     print("\nKostnads differanse:")
     
     '''
-    sammenligner priser for begge bil typene
+    Sammenligner priser for begge bil typene
     Bruk av f-string eller literal string interpolation: https://peps.python.org/pep-0498/
     .2f er en float-point format specifier, tilsier at det skal være 2 desimaler
     '''
