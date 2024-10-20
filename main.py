@@ -19,8 +19,6 @@ def main():
     
     '''
     Sammenligner priser for begge bil typene
-    Bruk av f-string eller literal string interpolation: https://peps.python.org/pep-0498/
-    .2f er en float-point format specifier, tilsier at det skal være 2 desimaler
     '''
     # Forsikring
     insurance_difference = abs(electrical_car.insurance - gasoline_car.insurance)
